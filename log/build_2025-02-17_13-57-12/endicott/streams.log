@@ -1,0 +1,118 @@
+[0.030s] Invoking command in '/root/ros2_ws/build/endicott': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/endicott -- -j8 -l8
+[0.073s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.267s] -- Found turtlesim: 1.4.2 (/root/ros2_ws/install/turtlesim/share/turtlesim/cmake)
+[0.418s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.431s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.446s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.474s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.505s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.600s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.675s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.675s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/ros2_ws/src/endicott/include>
+[0.675s] -- Configured cppcheck exclude dirs and/or files: 
+[0.676s] -- Added test 'lint_cmake' to check CMake code style
+[0.677s] -- Added test 'uncrustify' to check C / C++ code style
+[0.677s] -- Configured uncrustify additional arguments: 
+[0.677s] -- Added test 'xmllint' to check XML markup files
+[0.679s] -- Configuring done
+[0.689s] -- Generating done
+[0.692s] -- Build files have been written to: /root/ros2_ws/build/endicott
+[0.715s] [35m[1mConsolidate compiler generated dependencies of target endicott_turtle_controler[0m
+[0.727s] [ 50%] [32mBuilding CXX object CMakeFiles/endicott_turtle_controler.dir/src/endicott_turtle_controler.cpp.o[0m
+[0.801s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:8:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ does not name a type
+[0.802s]     8 |      [01;31m[Kturtlesim[m[K::Pose initLocation;
+[0.802s]       |      [01;31m[K^~~~~~~~~[m[K
+[0.802s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:9:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ does not name a type
+[0.802s]     9 |      [01;31m[Kturtlesim[m[K::Pose finalLocation;
+[0.802s]       |      [01;31m[K^~~~~~~~~[m[K
+[0.802s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:11:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type
+[0.802s]    11 |      [01;31m[Kros[m[K::Publisher cmd_vel_pub;
+[0.802s]       |      [01;31m[K^~~[m[K
+[0.802s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:12:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type
+[0.802s]    12 |      [01;31m[Kros[m[K::Subscriber pose_sub;
+[0.802s]       |      [01;31m[K^~~[m[K
+[0.802s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:13:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type
+[0.802s]    13 |      [01;31m[Kros[m[K::NodeHandle nh;
+[0.802s]       |      [01;31m[K^~~[m[K
+[0.803s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:15:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ has not been declared
+[0.804s]    15 |      PathFinding([01;31m[Kturtlesim[m[K::Pose goal, double d, ros::NodeHandle &n){
+[0.804s]       |                  [01;31m[K^~~~~~~~~[m[K
+[0.806s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:15:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kgoal[m[K’
+[0.806s]    15 |      PathFinding[34m[K([m[Kturtlesim::Pose[01;31m[K [m[K[32m[Kgoal[m[K, double d, ros::NodeHandle &n){
+[0.807s]       |                 [34m[K~[m[K               [01;31m[K^[m[K[32m[K~~~~[m[K
+[0.807s]       |                                 [32m[K)[m[K
+[0.808s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:58:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ does not name a type
+[0.808s]    58 |       void poseCallBack(const [01;31m[Kturtlesim[m[K::Pose &p_msg){
+[0.808s]       |                               [01;31m[K^~~~~~~~~[m[K
+[0.808s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:58:47:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[0.808s]    58 |       void poseCallBack(const turtlesim::Pose [01;31m[K&[m[Kp_msg){
+[0.808s]       |                                               [01;31m[K^[m[K
+[0.808s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:58:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[0.808s]    58 |       void poseCallBack[34m[K([m[Kconst turtlesim::Pose[01;31m[K [m[K[32m[K&[m[Kp_msg){
+[0.808s]       |                        [34m[K~[m[K                     [01;31m[K^[m[K[32m[K~[m[K
+[0.808s]       |                                              [32m[K)[m[K
+[0.809s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:58:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[0.809s]    58 |       void poseCallBack(const turtlesim::Pose [01;31m[K&[m[Kp_msg){
+[0.809s]       |                                               [01;31m[K^[m[K
+[0.809s]       |                                                [32m[K;[m[K
+[0.809s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:58:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kp_msg[m[K’ does not name a type
+[0.809s]    58 |       void poseCallBack(const turtlesim::Pose &[01;31m[Kp_msg[m[K){
+[0.810s]       |                                                [01;31m[K^~~~~[m[K
+[0.814s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:[m[K In member function ‘[01m[Kdouble PathFinding::getDistance(double, double, double, double)[m[K’:
+[0.814s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:25:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kpow[m[K’ was not declared in this scope
+[0.814s]    25 |            return sqrt([01;31m[Kpow[m[K((x1-x2),2) + pow((y1-y2),2));
+[0.814s]       |                        [01;31m[K^~~[m[K
+[0.815s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:25:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ksqrt[m[K’ was not declared in this scope
+[0.816s]    25 |            return [01;31m[Ksqrt[m[K(pow((x1-x2),2) + pow((y1-y2),2));
+[0.816s]       |                   [01;31m[K^~~~[m[K
+[0.817s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:[m[K In member function ‘[01m[Kvoid PathFinding::moveGoal()[m[K’:
+[0.817s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:29:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+[0.817s]    29 |             [01;31m[Kgeometry_msgs[m[K::Twist vel_msg;
+[0.817s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[0.818s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:30:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[0.818s]    30 |             [01;31m[Kros[m[K::Rate loop_rate(10);
+[0.818s]       |             [01;31m[K^~~[m[K
+[0.820s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:33:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_msg[m[K’ was not declared in this scope
+[0.820s]    33 |                    [01;31m[Kvel_msg[m[K.linear.x = 1.5*getDistance(initLocation.x,initLocation.y,finalLocation.x,finalLocation.y);
+[0.820s]       |                    [01;31m[K^~~~~~~[m[K
+[0.822s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:33:55:[m[K [01;31m[Kerror: [m[K‘[01m[KinitLocation[m[K’ was not declared in this scope
+[0.822s]    33 |                    vel_msg.linear.x = 1.5*getDistance([01;31m[KinitLocation[m[K.x,initLocation.y,finalLocation.x,finalLocation.y);
+[0.822s]       |                                                       [01;31m[K^~~~~~~~~~~~[m[K
+[0.823s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:33:85:[m[K [01;31m[Kerror: [m[K‘[01m[KfinalLocation[m[K’ was not declared in this scope
+[0.823s]    33 |                    vel_msg.linear.x = 1.5*getDistance(initLocation.x,initLocation.y,[01;31m[KfinalLocation[m[K.x,finalLocation.y);
+[0.824s]       |                                                                                     [01;31m[K^~~~~~~~~~~~~[m[K
+[0.826s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:39:43:[m[K [01;31m[Kerror: [m[K‘[01m[Katan2[m[K’ was not declared in this scope
+[0.826s]    39 |                    vel_msg.angular.z = 4*([01;31m[Katan2[m[K(finalLocation.y-initLocation.y,finalLocation.x-initLocation.x) - initLocation.theta);
+[0.826s]       |                                           [01;31m[K^~~~~[m[K
+[0.826s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:41:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_pub[m[K’ was not declared in this scope
+[0.826s]    41 |                    [01;31m[Kcmd_vel_pub[m[K.publish(vel_msg);
+[0.826s]       |                    [01;31m[K^~~~~~~~~~~[m[K
+[0.826s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:43:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[0.826s]    43 |                    [01;31m[Kros[m[K::spinOnce();
+[0.827s]       |                    [01;31m[K^~~[m[K
+[0.827s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:44:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop_rate[m[K’ was not declared in this scope
+[0.827s]    44 |                    [01;31m[Kloop_rate[m[K.sleep();
+[0.827s]       |                    [01;31m[K^~~~~~~~~[m[K
+[0.828s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:48:31:[m[K [01;31m[Kerror: [m[K‘[01m[KinitLocation[m[K’ was not declared in this scope
+[0.828s]    48 |             while(getDistance([01;31m[KinitLocation[m[K.x,initLocation.y,finalLocation.x,finalLocation.y) > distance_tolerance);
+[0.828s]       |                               [01;31m[K^~~~~~~~~~~~[m[K
+[0.829s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:48:61:[m[K [01;31m[Kerror: [m[K‘[01m[KfinalLocation[m[K’ was not declared in this scope
+[0.829s]    48 |             while(getDistance(initLocation.x,initLocation.y,[01;31m[KfinalLocation[m[K.x,finalLocation.y) > distance_tolerance);
+[0.829s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[0.830s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:50:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_msg[m[K’ was not declared in this scope
+[0.830s]    50 |             [01;31m[Kvel_msg[m[K.linear.x = 0;
+[0.830s]       |             [01;31m[K^~~~~~~[m[K
+[0.831s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:53:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_pub[m[K’ was not declared in this scope
+[0.831s]    53 |             [01;31m[Kcmd_vel_pub[m[K.publish(vel_msg);
+[0.831s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[0.831s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:[m[K At global scope:
+[0.831s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:64:3:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[0.831s]    64 |   [01;31m[K}[m[K
+[0.831s]       |   [01;31m[K^[m[K
+[0.831s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:65:7:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+[0.831s]    65 |   and [01;31m[Kthis[m[K is how I use it:
+[0.831s]       |       [01;31m[K^~~~[m[K
+[0.834s] gmake[2]: *** [CMakeFiles/endicott_turtle_controler.dir/build.make:76: CMakeFiles/endicott_turtle_controler.dir/src/endicott_turtle_controler.cpp.o] Error 1
+[0.835s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/endicott_turtle_controler.dir/all] Error 2
+[0.835s] gmake: *** [Makefile:146: all] Error 2
+[0.839s] Invoked command in '/root/ros2_ws/build/endicott' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/endicott -- -j8 -l8

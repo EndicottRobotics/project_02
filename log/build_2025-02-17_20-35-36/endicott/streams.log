@@ -1,0 +1,177 @@
+[0.019s] Invoking command in '/root/ros2_ws/build/endicott': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/endicott -- -j8 -l8
+[0.039s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.186s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.186s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.279s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.280s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.285s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.293s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.302s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.333s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.361s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.361s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.291s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.318s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[3.339s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[3.348s] -- Found turtlesim: 1.4.2 (/root/ros2_ws/install/turtlesim/share/turtlesim/cmake)
+[3.359s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.412s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.412s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/ros2_ws/src/endicott/include>
+[3.413s] -- Configured cppcheck exclude dirs and/or files: 
+[3.413s] -- Added test 'lint_cmake' to check CMake code style
+[3.413s] -- Added test 'uncrustify' to check C / C++ code style
+[3.413s] -- Configured uncrustify additional arguments: 
+[3.413s] -- Added test 'xmllint' to check XML markup files
+[3.414s] -- Configuring done
+[3.421s] -- Generating done
+[3.427s] -- Build files have been written to: /root/ros2_ws/build/endicott
+[3.453s] [35m[1mConsolidate compiler generated dependencies of target endicott_turtle_controler[0m
+[3.470s] [ 50%] [32mBuilding CXX object CMakeFiles/endicott_turtle_controler.dir/src/endicott_turtle_controler.cpp.o[0m
+[5.387s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:29:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ does not name a type
+[5.387s]    29 |   void pose_callback(const [01;31m[Kturtlesim[m[K::msg::Pose::SharedPtr msg) {
+[5.387s]       |                            [01;31m[K^~~~~~~~~[m[K
+[5.387s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:29:42:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[5.387s]    29 |   void pose_callback(const turtlesim::msg[01;31m[K::[m[KPose::SharedPtr msg) {
+[5.387s]       |                                          [01;31m[K^~[m[K
+[5.387s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:29:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[5.387s]    29 |   void pose_callback[34m[K([m[Kconst turtlesim::msg[01;31m[K:[m[K[32m[K:[m[KPose::SharedPtr msg) {
+[5.387s]       |                     [34m[K~[m[K                    [01;31m[K^[m[K[32m[K~[m[K
+[5.388s]       |                                          [32m[K)[m[K
+[5.388s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:29:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[5.388s]    29 |   void pose_callback(const turtlesim::[01;31m[Kmsg[m[K::Pose::SharedPtr msg) {
+[5.388s]       |                                       [01;31m[K^~~[m[K
+[5.388s]       |                                          [32m[K;[m[K
+[5.388s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:29:44:[m[K [01;31m[Kerror: [m[K‘[01m[KPose[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[5.388s]    29 |   void pose_callback(const turtlesim::msg::[01;31m[KPose[m[K::SharedPtr msg) {
+[5.388s]       |                                            [01;31m[K^~~~[m[K
+[5.395s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:76:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+[5.395s]    76 |   rclcpp::Publisher<[01;31m[Kgeometry_msgs[m[K::msg::Twist>::SharedPtr velocity_publisher_;
+[5.395s]       |                     [01;31m[K^~~~~~~~~~~~~[m[K
+[5.395s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:76:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.395s]    76 |   rclcpp::Publisher<geometry_msgs::msg::Twist[01;31m[K>[m[K::SharedPtr velocity_publisher_;
+[5.395s]       |                                              [01;31m[K^[m[K
+[5.395s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:76:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[5.395s]    76 |   rclcpp::Publisher<geometry_msgs::msg::Twist>::[01;31m[KSharedPtr[m[K velocity_publisher_;
+[5.395s]       |                                                 [01;31m[K^~~~~~~~~[m[K
+[5.395s]       |                                                          [32m[K;[m[K
+[5.397s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:76:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher_[m[K’ does not name a type
+[5.397s]    76 |   rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr [01;31m[Kvelocity_publisher_[m[K;
+[5.397s]       |                                                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.402s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:77:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ was not declared in this scope
+[5.402s]    77 |   rclcpp::Subscription<[01;31m[Kturtlesim[m[K::msg::Pose>::SharedPtr pose_subscription_;
+[5.402s]       |                        [01;31m[K^~~~~~~~~[m[K
+[5.402s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:77:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.402s]    77 |   rclcpp::Subscription<turtlesim::msg::Pose[01;31m[K>[m[K::SharedPtr pose_subscription_;
+[5.402s]       |                                            [01;31m[K^[m[K
+[5.403s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:77:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[5.403s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:77:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[5.403s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:77:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[5.403s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:77:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[5.403s]    77 |   rclcpp::Subscription<turtlesim::msg::Pose>::[01;31m[KSharedPtr[m[K pose_subscription_;
+[5.403s]       |                                               [01;31m[K^~~~~~~~~[m[K
+[5.403s]       |                                                        [32m[K;[m[K
+[5.403s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:77:47:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint GotoNode::SharedPtr[m[K’
+[5.403s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:76:49:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint GotoNode::SharedPtr[m[K’
+[5.403s]    76 |   rclcpp::Publisher<geometry_msgs::msg::Twist>::[01;36m[KSharedPtr[m[K velocity_publisher_;
+[5.403s]       |                                                 [01;36m[K^~~~~~~~~[m[K
+[5.404s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:77:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_subscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[5.404s]    77 |   rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr [01;31m[Kpose_subscription_[m[K;
+[5.404s]       |                                                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.404s]       |                                                         [32m[Krmw_subscription_t[m[K
+[5.411s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:[m[K In constructor ‘[01m[KGotoNode::GotoNode()[m[K’:
+[5.411s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[5.411s]    14 |     [01;31m[Kvelocity_publisher_[m[K = create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
+[5.411s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.411s]       |     [32m[Kcount_publishers[m[K
+[5.417s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:14:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+[5.418s]    14 |     velocity_publisher_ = create_publisher<[01;31m[Kgeometry_msgs[m[K::msg::Twist>("/turtle1/cmd_vel", 10);
+[5.418s]       |                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[5.418s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:14:27:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[5.418s]    14 |     velocity_publisher_ = [01;31m[Kcreate_publisher<geometry_msgs::msg::Twist>[m[K("/turtle1/cmd_vel", 10);
+[5.418s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.418s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:14:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGotoNode::create_publisher<<expression error> >(const char [17], int)[m[K’
+[5.418s]    14 |     velocity_publisher_ = [01;31m[Kcreate_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10)[m[K;
+[5.418s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.418s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[5.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.418s]                  from [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:2[m[K:
+[5.418s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[5.418s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[5.418s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[5.418s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.419s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:14:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.419s]    14 |     velocity_publisher_ = [01;31m[Kcreate_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10)[m[K;
+[5.419s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.424s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_subscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[5.424s]    15 |     [01;31m[Kpose_subscription_[m[K = create_subscription<turtlesim::msg::Pose>(
+[5.424s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.424s]       |     [32m[Krmw_subscription_t[m[K
+[5.429s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:15:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ was not declared in this scope
+[5.429s]    15 |     pose_subscription_ = create_subscription<[01;31m[Kturtlesim[m[K::msg::Pose>(
+[5.429s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[5.429s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:15:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[5.429s]    15 |     pose_subscription_ = [01;31m[Kcreate_subscription<turtlesim::msg::Pose>[m[K(
+[5.429s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.433s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:15:67:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGotoNode::create_subscription<<expression error> >(const char [14], int, std::_Bind_helper<false, void (GotoNode::*)(...), GotoNode*, const std::_Placeholder<1>&>::type)[m[K’
+[5.434s]    15 |     pose_subscription_ = [01;31m[Kcreate_subscription<turtlesim::msg::Pose>([m[K
+[5.434s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[5.434s]    16 | [01;31m[K        "/turtle1/pose", 10, std::bind(&GotoNode::pose_callback, this, std::placeholders::_1))[m[K;
+[5.434s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.434s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.434s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[5.434s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.434s]                  from [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:2[m[K:
+[5.434s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[5.434s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[5.434s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.434s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.434s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:15:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.434s]    15 |     pose_subscription_ = [01;31m[Kcreate_subscription<turtlesim::msg::Pose>([m[K
+[5.434s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[5.434s]    16 | [01;31m[K        "/turtle1/pose", 10, std::bind(&GotoNode::pose_callback, this, std::placeholders::_1))[m[K;
+[5.435s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.435s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:[m[K In member function ‘[01m[Kvoid GotoNode::rotate_turtle(double)[m[K’:
+[5.435s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+[5.435s]    59 |         [01;31m[Kgeometry_msgs[m[K::msg::Twist twist_msg;
+[5.436s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[5.443s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:60:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktwist_msg[m[K’ was not declared in this scope
+[5.443s]    60 |         [01;31m[Ktwist_msg[m[K.angular.z = angular_error;
+[5.443s]       |         [01;31m[K^~~~~~~~~[m[K
+[5.452s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:61:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[5.452s]    61 |         [01;31m[Kvelocity_publisher_[m[K->publish(twist_msg);
+[5.452s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.452s]       |         [32m[Kcount_publishers[m[K
+[5.452s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:[m[K In member function ‘[01m[Kvoid GotoNode::move_forward(double)[m[K’:
+[5.453s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:65:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+[5.453s]    65 |     [01;31m[Kgeometry_msgs[m[K::msg::Twist twist_msg;
+[5.453s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[5.459s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:66:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktwist_msg[m[K’ was not declared in this scope
+[5.459s]    66 |     [01;31m[Ktwist_msg[m[K.linear.x = distance;
+[5.459s]       |     [01;31m[K^~~~~~~~~[m[K
+[5.467s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:67:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[5.467s]    67 |     [01;31m[Kvelocity_publisher_[m[K->publish(twist_msg);
+[5.467s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.467s]       |     [32m[Kcount_publishers[m[K
+[5.467s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:[m[K In member function ‘[01m[Kvoid GotoNode::stop_turtle()[m[K’:
+[5.467s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:72:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+[5.467s]    72 |     [01;31m[Kgeometry_msgs[m[K::msg::Twist twist_msg;
+[5.467s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[5.474s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:73:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[5.474s]    73 |     [01;31m[Kvelocity_publisher_[m[K->publish(twist_msg);
+[5.474s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.474s]       |     [32m[Kcount_publishers[m[K
+[5.479s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:73:34:[m[K [01;31m[Kerror: [m[K‘[01m[Ktwist_msg[m[K’ was not declared in this scope
+[5.479s]    73 |     velocity_publisher_->publish([01;31m[Ktwist_msg[m[K);
+[5.479s]       |                                  [01;31m[K^~~~~~~~~[m[K
+[5.481s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.481s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:102:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool GotoNode::moving_[m[K’ is private within this context
+[5.481s]   102 |     while(goto_node->[01;31m[Kmoving_[m[K){
+[5.481s]       |                      [01;31m[K^~~~~~~[m[K
+[5.481s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:84:8:[m[K [01;36m[Knote: [m[Kdeclared private here
+[5.481s]    84 |   bool [01;36m[Kmoving_[m[K = false;
+[5.481s]       |        [01;36m[K^~~~~~~[m[K
+[5.842s] gmake[2]: *** [CMakeFiles/endicott_turtle_controler.dir/build.make:76: CMakeFiles/endicott_turtle_controler.dir/src/endicott_turtle_controler.cpp.o] Error 1
+[5.843s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/endicott_turtle_controler.dir/all] Error 2
+[5.843s] gmake: *** [Makefile:146: all] Error 2
+[5.846s] Invoked command in '/root/ros2_ws/build/endicott' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/endicott -- -j8 -l8

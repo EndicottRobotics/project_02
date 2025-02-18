@@ -1,0 +1,4 @@
+source;share/endicott/local_setup.bash
+source;share/endicott/local_setup.dsv
+source;share/endicott/local_setup.sh
+source;share/endicott/local_setup.zsh

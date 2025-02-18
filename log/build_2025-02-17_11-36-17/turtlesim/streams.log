@@ -1,0 +1,39 @@
+[0.012s] Invoking command in '/root/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/turtlesim -- -j8 -l8
+[0.059s] [  1%] Built target turtlesim__cpp
+[0.062s] [ 11%] Built target turtlesim__rosidl_generator_c
+[0.080s] [ 11%] Built target ament_cmake_python_copy_turtlesim
+[0.089s] [ 21%] Built target turtlesim__rosidl_typesupport_cpp
+[0.095s] [ 31%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.095s] [ 41%] Built target turtlesim__rosidl_typesupport_c
+[0.095s] [ 54%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.095s] [ 61%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.095s] [ 71%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_node[0m
+[0.121s] [ 75%] Built target mimic
+[0.121s] [ 75%] Built target turtlesim
+[0.122s] [ 73%] Built target draw_square
+[0.122s] [ 77%] Built target turtle_teleop_key
+[0.143s] [ 78%] Built target turtlesim__py
+[0.146s] [ 79%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o[0m
+[0.163s] [ 88%] Built target turtlesim__rosidl_generator_py
+[0.184s] [ 90%] Built target turtlesim__rosidl_typesupport_c__pyext
+[0.186s] [ 92%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[0.187s] [ 94%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[0.306s] running egg_info
+[0.307s] writing turtlesim.egg-info/PKG-INFO
+[0.308s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[0.308s] writing top-level names to turtlesim.egg-info/top_level.txt
+[0.311s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.312s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.342s] [ 94%] Built target ament_cmake_python_build_turtlesim_egg
+[3.722s] [01m[K/root/ros2_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:[m[K In member function ‘[01m[Kvirtual void turtlesim::TurtleFrame::paintEvent(QPaintEvent*)[m[K’:
+[3.722s] [01m[K/root/ros2_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:246:8:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KQRgb background_color[m[K’
+[3.723s]   246 |   QRgb [01;31m[Kbackground_color[m[K = qRgb(g, b, r);
+[3.723s]       |        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.723s] [01m[K/root/ros2_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:244:8:[m[K [01;36m[Knote: [m[K‘[01m[KQRgb background_color[m[K’ previously declared here
+[3.723s]   244 |   QRgb [01;36m[Kbackground_color[m[K = qRgb(r, g, b);
+[3.723s]       |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.592s] gmake[2]: *** [CMakeFiles/turtlesim_node.dir/build.make:108: CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o] Error 1
+[6.592s] gmake[1]: *** [CMakeFiles/Makefile2:599: CMakeFiles/turtlesim_node.dir/all] Error 2
+[6.593s] gmake: *** [Makefile:146: all] Error 2
+[6.598s] Invoked command in '/root/ros2_ws/build/turtlesim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/turtlesim -- -j8 -l8

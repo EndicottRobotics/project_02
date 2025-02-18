@@ -1,0 +1,11 @@
+[0.019s] Invoking command in '/root/ros2_ws/build/endicott': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/endicott -- -j8 -l8
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target endicott_turtle_controler[0m
+[0.085s] [ 50%] [32mBuilding CXX object CMakeFiles/endicott_turtle_controler.dir/src/endicott_turtle_controler.cpp.o[0m
+[2.392s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.392s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:103:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kat_target[m[K’ was not declared in this scope
+[2.392s]   103 |    while(![01;31m[Kat_target[m[K()){
+[2.392s]       |           [01;31m[K^~~~~~~~~[m[K
+[4.814s] gmake[2]: *** [CMakeFiles/endicott_turtle_controler.dir/build.make:76: CMakeFiles/endicott_turtle_controler.dir/src/endicott_turtle_controler.cpp.o] Error 1
+[4.815s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/endicott_turtle_controler.dir/all] Error 2
+[4.815s] gmake: *** [Makefile:146: all] Error 2
+[4.817s] Invoked command in '/root/ros2_ws/build/endicott' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/endicott -- -j8 -l8

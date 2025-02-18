@@ -1,0 +1,13 @@
+[0.032s] Invoking command in '/root/ros2_ws/build/endicott': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/endicott -- -j8 -l8
+[0.151s] [ 50%] [32mBuilding CXX object CMakeFiles/endicott_turtle_controler.dir/src/endicott_turtle_controler.cpp.o[0m
+[2.755s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.755s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:99:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool GotoNode::moving_[m[K’ is private within this context
+[2.755s]    99 |    while(goto_node->[01;31m[Kmoving_[m[K){
+[2.756s]       |                     [01;31m[K^~~~~~~[m[K
+[2.756s] [01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:81:8:[m[K [01;36m[Knote: [m[Kdeclared private here
+[2.756s]    81 |   bool [01;36m[Kmoving_[m[K = false;
+[2.756s]       |        [01;36m[K^~~~~~~[m[K
+[5.255s] gmake[2]: *** [CMakeFiles/endicott_turtle_controler.dir/build.make:76: CMakeFiles/endicott_turtle_controler.dir/src/endicott_turtle_controler.cpp.o] Error 1
+[5.256s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/endicott_turtle_controler.dir/all] Error 2
+[5.256s] gmake: *** [Makefile:146: all] Error 2
+[5.258s] Invoked command in '/root/ros2_ws/build/endicott' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/endicott -- -j8 -l8

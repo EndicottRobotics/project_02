@@ -1,0 +1,8 @@
+[01m[K/root/ros2_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:[m[K In member function ‘[01m[Kvirtual void turtlesim::TurtleFrame::paintEvent(QPaintEvent*)[m[K’:
+[01m[K/root/ros2_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:245:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kbackground_color2[m[K’ was not declared in this scope; did you mean ‘[01m[Kbackground_color[m[K’?
+  245 |   [01;31m[Kbackground_color2[m[K = qRgb(0, 0, 0);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Kbackground_color[m[K
+gmake[2]: *** [CMakeFiles/turtlesim_node.dir/build.make:108: CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:599: CMakeFiles/turtlesim_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

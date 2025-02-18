@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target endicott_turtle_controler[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/endicott_turtle_controler.dir/src/endicott_turtle_controler.cpp.o[0m
+[01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:[m[K In member function ‘[01m[Kbool GotoNode::at_target()[m[K’:
+[01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:28:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   28 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+[01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/ros2_ws/src/endicott/src/endicott_turtle_controler.cpp:103:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kat_target[m[K’ was not declared in this scope
+  103 |    while(![01;31m[Kat_target[m[K){
+      |           [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/endicott_turtle_controler.dir/build.make:76: CMakeFiles/endicott_turtle_controler.dir/src/endicott_turtle_controler.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/endicott_turtle_controler.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

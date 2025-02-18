@@ -1,0 +1,9 @@
+[0.027s] Invoking command in '/root/ros2_ws/build/endicott': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/endicott -- -j8 -l8
+[0.095s] [31mCMake Error at CMakeLists.txt:25:
+[0.095s]   Parse error.  Expected a command name, got left paren with text "(".
+[0.095s] 
+[0.096s] [0m
+[0.096s] -- Configuring incomplete, errors occurred!
+[0.096s] See also "/root/ros2_ws/build/endicott/CMakeFiles/CMakeOutput.log".
+[0.101s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.103s] Invoked command in '/root/ros2_ws/build/endicott' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/endicott -- -j8 -l8
