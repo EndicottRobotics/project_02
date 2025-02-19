@@ -1,0 +1,23 @@
+[0.012s] Invoking command in '/root/ros2_ws/src/project_02/build/endicott': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/project_02/build/endicott -- -j8 -l8
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target goto_node[0m
+[0.056s] [100%] Built target goto_node
+[0.064s] Invoked command in '/root/ros2_ws/src/project_02/build/endicott' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/project_02/build/endicott -- -j8 -l8
+[0.072s] Invoking command in '/root/ros2_ws/src/project_02/build/endicott': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/project_02/build/endicott
+[0.077s] -- Install configuration: ""
+[0.077s] -- Up-to-date: /root/ros2_ws/src/project_02/install/endicott/lib/endicott/goto_node
+[0.078s] -- Up-to-date: /root/ros2_ws/src/project_02/install/endicott/share/ament_index/resource_index/package_run_dependencies/endicott
+[0.078s] -- Up-to-date: /root/ros2_ws/src/project_02/install/endicott/share/ament_index/resource_index/parent_prefix_path/endicott
+[0.078s] -- Up-to-date: /root/ros2_ws/src/project_02/install/endicott/share/endicott/environment/ament_prefix_path.sh
+[0.078s] -- Up-to-date: /root/ros2_ws/src/project_02/install/endicott/share/endicott/environment/ament_prefix_path.dsv
+[0.079s] -- Up-to-date: /root/ros2_ws/src/project_02/install/endicott/share/endicott/environment/path.sh
+[0.079s] -- Up-to-date: /root/ros2_ws/src/project_02/install/endicott/share/endicott/environment/path.dsv
+[0.079s] -- Up-to-date: /root/ros2_ws/src/project_02/install/endicott/share/endicott/local_setup.bash
+[0.079s] -- Up-to-date: /root/ros2_ws/src/project_02/install/endicott/share/endicott/local_setup.sh
+[0.079s] -- Up-to-date: /root/ros2_ws/src/project_02/install/endicott/share/endicott/local_setup.zsh
+[0.079s] -- Up-to-date: /root/ros2_ws/src/project_02/install/endicott/share/endicott/local_setup.dsv
+[0.079s] -- Installing: /root/ros2_ws/src/project_02/install/endicott/share/endicott/package.dsv
+[0.079s] -- Up-to-date: /root/ros2_ws/src/project_02/install/endicott/share/ament_index/resource_index/packages/endicott
+[0.079s] -- Up-to-date: /root/ros2_ws/src/project_02/install/endicott/share/endicott/cmake/endicottConfig.cmake
+[0.079s] -- Up-to-date: /root/ros2_ws/src/project_02/install/endicott/share/endicott/cmake/endicottConfig-version.cmake
+[0.079s] -- Up-to-date: /root/ros2_ws/src/project_02/install/endicott/share/endicott/package.xml
+[0.081s] Invoked command in '/root/ros2_ws/src/project_02/build/endicott' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/project_02/build/endicott
