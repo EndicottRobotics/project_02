@@ -16,12 +16,14 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MoveStatus.msg"
   DEPENDENCIES std_msgs
 )
+ament_export_dependencies(rosidl_default_runtime)
+#rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
 
-# Install the generated header files properly
-install(DIRECTORY
-  ${CMAKE_BINARY_DIR}/include/
-  DESTINATION include/${PROJECT_NAME}
-)
+# Install directories for ROS 2
+#install(
+#3DIRECTORY include/
+#  DESTINATION include/${PROJECT_NAME}
+#)
 
 ament_export_dependencies(rosidl_default_runtime)
 

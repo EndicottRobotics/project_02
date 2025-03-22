@@ -183,8 +183,12 @@ CMakeFiles/endicott_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesup
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc /usr/include/malloc.h \
  /root/ros2_ws/build/endicott_interfaces/rosidl_generator_c/endicott_interfaces/msg/detail/move_status__struct.h \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /root/ros2_ws/build/endicott_interfaces/rosidl_generator_c/endicott_interfaces/msg/detail/move_status__functions.h \
  /usr/include/c++/11/stdlib.h \
  /root/ros2_ws/build/endicott_interfaces/rosidl_generator_c/endicott_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__functions.h \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h

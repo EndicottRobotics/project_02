@@ -3,7 +3,9 @@
 #include "turtlesim/msg/pose.hpp"  // Include turtlesim for the turtle's pose
 #include "geometry_msgs/msg/pose.hpp"  // Include geometry_msgs for the target pose
 #include "geometry_msgs/msg/twist.hpp"
-#include "your_package_name/msg/goto_state.hpp"  // Include the custom GotoState message
+#include "endicott_interfaces/msg/move_status.hpp"  
+
+// Include the custom MoveStatus.msg message
 #include <cmath>
 #include <memory>
 #include <stdexcept>
@@ -24,7 +26,7 @@ public:
     velocity_publisher_ = create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
 
     // Publisher a move status message
-    goto_state_publisher_ = create_publisher<GotoNode::msg::GotoState>("/goto_state", 10);
+    goto_status_publisher_ = create_publisher<endicott_interfaces::msg::MoveStatus>("/goto_status", 10);
 
     tolerance_ = 0.1;
     moving_    = false;
@@ -102,19 +104,20 @@ private:
   }
 
   void publish_goto_state(double x_offset, double y_offset, double theta_offset, const std::string& state) {
-    your_package_name::msg::GotoState goto_state_msg;
-    goto_state_msg.distance_error = x_offset;
-    goto_state_msg.theta_error    = theta_offset;
-    goto_state_msg.state          = state;
+    endicott_interfaces::msg::MoveStatus goto_status_msg;
+    goto_status_msg.state          = state;
+    goto_status_msg.distance_error = x_offset;
+    goto_status_msg.theta_error    = theta_offset;
+
 
     // Publish the message
-    goto_state_publisher_->publish(goto_state_msg);
-    RCLCPP_INFO(this->get_logger(), "Published goto_state: state=%s, distance_error=%.2f, theta_error=%.2f, "
+    goto_status_publisher_->publish(goto_status_msg);
+    RCLCPP_INFO(this->get_logger(), "Published goto_state: state=%s, distance_error=%.2f, theta_error=%.2f, ",
                                       state.c_str(), x_offset, theta_offset);
   }
 
   rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr velocity_publisher_;
-  rclcpp::Publisher<your_package_name::msg::GotoState>::SharedPtr goto_state_publisher_;  // GotoState publisher
+  rclcpp::Publisher<endicott_interfaces::msg::MoveStatus>::SharedPtr goto_status_publisher_;  // GotoState publisher
   rclcpp::Subscription<geometry_msgs::msg::Pose>::SharedPtr target_pose_subscription_;
   rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr pose_subscription_;
   double target_x_;

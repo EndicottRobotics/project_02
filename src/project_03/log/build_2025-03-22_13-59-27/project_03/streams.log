@@ -1,0 +1,45 @@
+[0.013s] Invoking command in '/root/ros2_ws/src/project_03/build/project_03': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/turtlebot3_teleop:/root/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/project_03/build/project_03 -- -j8 -l8
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target goto_target_node[0m
+[0.055s] [ 50%] Built target target_sequence_node
+[0.056s] [ 75%] [32mBuilding CXX object CMakeFiles/goto_target_node.dir/src/goto_target_node.cpp.o[0m
+[2.462s] [01m[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:[m[K In constructor ‘[01m[KGotoNode::GotoNode()[m[K’:
+[2.462s] [01m[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:30:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kendicott_interfaces_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Kendicott_interfaces[m[K’?
+[2.462s]    30 |     goto_status_publisher_ = create_publisher<[01;31m[Kendicott_interfaces_msgs[m[K::msg::MoveStatus>("/goto_status", 10);
+[2.462s]       |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.462s]       |                                               [32m[Kendicott_interfaces[m[K
+[2.462s] [01m[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:30:30:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.462s]    30 |     goto_status_publisher_ = [01;31m[Kcreate_publisher<endicott_interfaces_msgs::msg::MoveStatus>[m[K("/goto_status", 10);
+[2.462s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.462s] [01m[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:30:89:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGotoNode::create_publisher<<expression error> >(const char [13], int)[m[K’
+[2.462s]    30 |     goto_status_publisher_ = [01;31m[Kcreate_publisher<endicott_interfaces_msgs::msg::MoveStatus>("/goto_status", 10)[m[K;
+[2.462s]       |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[2.462s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[2.463s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.463s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.463s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.463s]                  from [01m[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:2[m[K:
+[2.463s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[2.463s]    73 | [01;36m[KNode[m[K::create_publisher(
+[2.463s]       | [01;36m[K^~~~[m[K
+[2.463s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.463s] [01m[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:30:89:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.463s]    30 |     goto_status_publisher_ = [01;31m[Kcreate_publisher<endicott_interfaces_msgs::msg::MoveStatus>("/goto_status", 10)[m[K;
+[2.463s]       |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[2.468s] [01m[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:[m[K In member function ‘[01m[Kvoid GotoNode::publish_goto_state(double, double, double, const string&)[m[K’:
+[2.468s] [01m[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:108:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kyour_package_name[m[K’ has not been declared
+[2.468s]   108 |     [01;31m[Kyour_package_name[m[K::msg::GotoState goto_state_msg;
+[2.468s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.475s] [01m[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:109:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoto_state_msg[m[K’ was not declared in this scope
+[2.475s]   109 |     [01;31m[Kgoto_state_msg[m[K.distance_error = x_offset;
+[2.475s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.480s] [01m[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:114:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoto_state_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoto_status_publisher_[m[K’?
+[2.480s]   114 |     [01;31m[Kgoto_state_publisher_[m[K->publish(goto_state_msg);
+[2.480s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.480s]       |     [32m[Kgoto_status_publisher_[m[K
+[2.480s] [01m[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:107:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky_offset[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.480s]   107 |   void publish_goto_state(double x_offset, [01;35m[Kdouble y_offset[m[K, double theta_offset, const std::string& state) {
+[2.480s]       |                                            [01;35m[K~~~~~~~^~~~~~~~[m[K
+[5.432s] gmake[2]: *** [CMakeFiles/goto_target_node.dir/build.make:76: CMakeFiles/goto_target_node.dir/src/goto_target_node.cpp.o] Error 1
+[5.432s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/goto_target_node.dir/all] Error 2
+[5.432s] gmake: *** [Makefile:146: all] Error 2
+[5.434s] Invoked command in '/root/ros2_ws/src/project_03/build/project_03' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/turtlebot3_teleop:/root/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/project_03/build/project_03 -- -j8 -l8

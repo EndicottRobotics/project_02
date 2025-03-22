@@ -44,6 +44,10 @@ class Metaclass_MoveStatus(type):
             cls._TYPE_SUPPORT = module.type_support_msg__msg__move_status
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__msg__move_status
 
+            from std_msgs.msg import Header
+            if Header.__class__._TYPE_SUPPORT is None:
+                Header.__class__.__import_type_support__()
+
     @classmethod
     def __prepare__(cls, name, bases, **kwargs):
         # list constant names here so that they appear in the help text of
@@ -57,18 +61,21 @@ class MoveStatus(metaclass=Metaclass_MoveStatus):
     """Message class 'MoveStatus'."""
 
     __slots__ = [
+        '_header',
         '_state',
         '_distance_error',
         '_theta_error',
     ]
 
     _fields_and_field_types = {
+        'header': 'std_msgs/Header',
         'state': 'string',
         'distance_error': 'double',
         'theta_error': 'double',
     }
 
     SLOT_TYPES = (
+        rosidl_parser.definition.NamespacedType(['std_msgs', 'msg'], 'Header'),  # noqa: E501
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
@@ -78,6 +85,8 @@ class MoveStatus(metaclass=Metaclass_MoveStatus):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        from std_msgs.msg import Header
+        self.header = kwargs.get('header', Header())
         self.state = kwargs.get('state', str())
         self.distance_error = kwargs.get('distance_error', float())
         self.theta_error = kwargs.get('theta_error', float())
@@ -111,6 +120,8 @@ class MoveStatus(metaclass=Metaclass_MoveStatus):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
+        if self.header != other.header:
+            return False
         if self.state != other.state:
             return False
         if self.distance_error != other.distance_error:
@@ -123,6 +134,20 @@ class MoveStatus(metaclass=Metaclass_MoveStatus):
     def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
+
+    @builtins.property
+    def header(self):
+        """Message field 'header'."""
+        return self._header
+
+    @header.setter
+    def header(self, value):
+        if __debug__:
+            from std_msgs.msg import Header
+            assert \
+                isinstance(value, Header), \
+                "The 'header' field must be a sub message of type 'Header'"
+        self._header = value
 
     @builtins.property
     def state(self):

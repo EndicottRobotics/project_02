@@ -19,6 +19,10 @@
 #include "rosidl_runtime_c/string.h"
 #include "rosidl_runtime_c/string_functions.h"
 
+ROSIDL_GENERATOR_C_IMPORT
+bool std_msgs__msg__header__convert_from_py(PyObject * _pymsg, void * _ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * std_msgs__msg__header__convert_to_py(void * raw_ros_message);
 
 ROSIDL_GENERATOR_C_EXPORT
 bool endicott_interfaces__msg__move_status__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -53,6 +57,17 @@ bool endicott_interfaces__msg__move_status__convert_from_py(PyObject * _pymsg, v
     assert(strncmp("endicott_interfaces.msg._move_status.MoveStatus", full_classname_dest, 47) == 0);
   }
   endicott_interfaces__msg__MoveStatus * ros_message = _ros_message;
+  {  // header
+    PyObject * field = PyObject_GetAttrString(_pymsg, "header");
+    if (!field) {
+      return false;
+    }
+    if (!std_msgs__msg__header__convert_from_py(field, &ros_message->header)) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_DECREF(field);
+  }
   {  // state
     PyObject * field = PyObject_GetAttrString(_pymsg, "state");
     if (!field) {
@@ -108,6 +123,20 @@ PyObject * endicott_interfaces__msg__move_status__convert_to_py(void * raw_ros_m
     }
   }
   endicott_interfaces__msg__MoveStatus * ros_message = (endicott_interfaces__msg__MoveStatus *)raw_ros_message;
+  {  // header
+    PyObject * field = NULL;
+    field = std_msgs__msg__header__convert_to_py(&ros_message->header);
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "header", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
   {  // state
     PyObject * field = NULL;
     field = PyUnicode_DecodeUTF8(

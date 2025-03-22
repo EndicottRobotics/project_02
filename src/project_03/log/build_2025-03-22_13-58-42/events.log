@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000197] (project_03) JobQueued: {'identifier': 'project_03', 'dependencies': OrderedDict()}
+[0.000335] (project_03) JobStarted: {'identifier': 'project_03'}
+[0.008845] (project_03) JobProgress: {'identifier': 'project_03', 'progress': 'cmake'}
+[0.009383] (project_03) JobProgress: {'identifier': 'project_03', 'progress': 'build'}
+[0.010466] (project_03) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/src/project_03/build/project_03', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/src/project_03/build/project_03', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/turtlesim/lib:/root/ros2_ws/install/turtlebot3_msgs/lib:/root/ros2_ws/install/endicott_interfaces/lib:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/root/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('DEBUGINFOD_URLS', ''), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'Brian-Lucas'), ('WSL_INTEROP', '/run/WSL/99908_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2016a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Live/Shared:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/Lucas/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Lucas/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Lucas/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Lucas/AppData/Local/Programs/Microsoft VS Code Insiders/bin:/mnt/c/Users/Lucas/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/turtlesim:/root/ros2_ws/install/turtlebot3:/root/ros2_ws/install/turtlebot3_teleop:/root/ros2_ws/install/turtlebot3_simulations:/root/ros2_ws/install/turtlebot3_bringup:/root/ros2_ws/install/turtlebot3_node:/root/ros2_ws/install/turtlebot3_navigation2:/root/ros2_ws/install/turtlebot3_fake_node:/root/ros2_ws/install/turtlebot3_example:/root/ros2_ws/install/turtlebot3_msgs:/root/ros2_ws/install/turtlebot3_gazebo:/root/ros2_ws/install/turtlebot3_description:/root/ros2_ws/install/turtlebot3_cartographer:/root/ros2_ws/install/goto_node:/root/ros2_ws/install/endicott_interfaces:/root/ros2_ws/install/dynamixel_sdk_examples:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces:/root/ros2_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/src/project_03/build/project_03'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/root/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/root/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/root/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/endicott_interfaces/local/lib/python3.10/dist-packages:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/turtlesim:/root/ros2_ws/install/turtlebot3:/root/ros2_ws/install/turtlebot3_simulations:/root/ros2_ws/install/turtlebot3_bringup:/root/ros2_ws/install/turtlebot3_node:/root/ros2_ws/install/turtlebot3_navigation2:/root/ros2_ws/install/turtlebot3_fake_node:/root/ros2_ws/install/turtlebot3_msgs:/root/ros2_ws/install/turtlebot3_gazebo:/root/ros2_ws/install/turtlebot3_description:/root/ros2_ws/install/turtlebot3_cartographer:/root/ros2_ws/install/goto_node:/root/ros2_ws/install/endicott_interfaces:/root/ros2_ws/install/dynamixel_sdk_examples:/root/ros2_ws/install/dynamixel_sdk_custom_interfaces:/root/ros2_ws/install/dynamixel_sdk:/root/ros2_ws/install/turtlebot3_teleop:/root/ros2_ws/install/turtlebot3_example:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.048601] (project_03) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target target_sequence_node\x1b[0m\n'}
+[0.057726] (project_03) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/goto_target_node.dir/src/goto_target_node.cpp.o\x1b[0m\n'}
+[0.076783] (project_03) StdoutLine: {'line': b'[ 75%] Built target target_sequence_node\n'}
+[0.099118] (-) TimerEvent: {}
+[0.199633] (-) TimerEvent: {}
+[0.300116] (-) TimerEvent: {}
+[0.400557] (-) TimerEvent: {}
+[0.500923] (-) TimerEvent: {}
+[0.601474] (-) TimerEvent: {}
+[0.701902] (-) TimerEvent: {}
+[0.802247] (-) TimerEvent: {}
+[0.902856] (-) TimerEvent: {}
+[1.003402] (-) TimerEvent: {}
+[1.103893] (-) TimerEvent: {}
+[1.204417] (-) TimerEvent: {}
+[1.305052] (-) TimerEvent: {}
+[1.405605] (-) TimerEvent: {}
+[1.506164] (-) TimerEvent: {}
+[1.606623] (-) TimerEvent: {}
+[1.707062] (-) TimerEvent: {}
+[1.807440] (-) TimerEvent: {}
+[1.907757] (-) TimerEvent: {}
+[2.008237] (-) TimerEvent: {}
+[2.090657] (project_03) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KGotoNode::GotoNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.090938] (project_03) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:30:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kendicott_interfaces_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kendicott_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.091063] (project_03) StderrLine: {'line': b'   30 |     goto_status_publisher_ = create_publisher<\x1b[01;31m\x1b[Kendicott_interfaces_msgs\x1b[m\x1b[K::msg::MoveStatus>("/goto_status", 10);\n'}
+[2.091107] (project_03) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.091148] (project_03) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[Kendicott_interfaces\x1b[m\x1b[K\n'}
+[2.091186] (project_03) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:30:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.091226] (project_03) StderrLine: {'line': b'   30 |     goto_status_publisher_ = \x1b[01;31m\x1b[Kcreate_publisher<endicott_interfaces_msgs::msg::MoveStatus>\x1b[m\x1b[K("/goto_status", 10);\n'}
+[2.091265] (project_03) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.091303] (project_03) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:30:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KGotoNode::create_publisher<<expression error> >(const char [13], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.091341] (project_03) StderrLine: {'line': b'   30 |     goto_status_publisher_ = \x1b[01;31m\x1b[Kcreate_publisher<endicott_interfaces_msgs::msg::MoveStatus>("/goto_status", 10)\x1b[m\x1b[K;\n'}
+[2.091379] (project_03) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.091415] (project_03) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[2.091453] (project_03) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.091491] (project_03) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.091527] (project_03) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.091563] (project_03) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.091599] (project_03) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.091640] (project_03) StderrLine: {'line': b'   73 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_publisher(\n'}
+[2.091678] (project_03) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.091715] (project_03) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.091752] (project_03) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:30:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.091790] (project_03) StderrLine: {'line': b'   30 |     goto_status_publisher_ = \x1b[01;31m\x1b[Kcreate_publisher<endicott_interfaces_msgs::msg::MoveStatus>("/goto_status", 10)\x1b[m\x1b[K;\n'}
+[2.091827] (project_03) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.096988] (project_03) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GotoNode::publish_goto_state(double, double, double, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.097173] (project_03) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:108:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kyour_package_name\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.097242] (project_03) StderrLine: {'line': b'  108 |     \x1b[01;31m\x1b[Kyour_package_name\x1b[m\x1b[K::msg::GotoState goto_state_msg;\n'}
+[2.097288] (project_03) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.104464] (project_03) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:109:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoto_state_msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.104712] (project_03) StderrLine: {'line': b'  109 |     \x1b[01;31m\x1b[Kgoto_state_msg\x1b[m\x1b[K.distance_error = x_offset;\n'}
+[2.104772] (project_03) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.108279] (-) TimerEvent: {}
+[2.108667] (project_03) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:114:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoto_state_publisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgoto_status_publisher_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.108834] (project_03) StderrLine: {'line': b'  114 |     \x1b[01;31m\x1b[Kgoto_state_publisher_\x1b[m\x1b[K->publish(goto_state_msg);\n'}
+[2.108898] (project_03) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.108961] (project_03) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kgoto_status_publisher_\x1b[m\x1b[K\n'}
+[2.109016] (project_03) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:107:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ky_offset\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.109092] (project_03) StderrLine: {'line': b'  107 |   void publish_goto_state(double x_offset, \x1b[01;35m\x1b[Kdouble y_offset\x1b[m\x1b[K, double theta_offset, const std::string& state) {\n'}
+[2.109164] (project_03) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[2.208510] (-) TimerEvent: {}
+[2.308967] (-) TimerEvent: {}
+[2.409438] (-) TimerEvent: {}
+[2.509920] (-) TimerEvent: {}
+[2.610333] (-) TimerEvent: {}
+[2.711052] (-) TimerEvent: {}
+[2.811521] (-) TimerEvent: {}
+[2.911976] (-) TimerEvent: {}
+[3.012413] (-) TimerEvent: {}
+[3.112893] (-) TimerEvent: {}
+[3.213372] (-) TimerEvent: {}
+[3.313958] (-) TimerEvent: {}
+[3.414434] (-) TimerEvent: {}
+[3.514881] (-) TimerEvent: {}
+[3.615385] (-) TimerEvent: {}
+[3.715935] (-) TimerEvent: {}
+[3.816404] (-) TimerEvent: {}
+[3.916792] (-) TimerEvent: {}
+[4.017305] (-) TimerEvent: {}
+[4.117874] (-) TimerEvent: {}
+[4.218237] (-) TimerEvent: {}
+[4.318666] (-) TimerEvent: {}
+[4.419122] (-) TimerEvent: {}
+[4.519481] (-) TimerEvent: {}
+[4.619974] (-) TimerEvent: {}
+[4.720703] (-) TimerEvent: {}
+[4.821199] (-) TimerEvent: {}
+[4.882934] (project_03) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/goto_target_node.dir/build.make:76: CMakeFiles/goto_target_node.dir/src/goto_target_node.cpp.o] Error 1\n'}
+[4.883675] (project_03) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/goto_target_node.dir/all] Error 2\n'}
+[4.883963] (project_03) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.885980] (project_03) CommandEnded: {'returncode': 2}
+[4.892964] (project_03) JobEnded: {'identifier': 'project_03', 'rc': 2}
+[4.903895] (-) EventReactorShutdown: {}

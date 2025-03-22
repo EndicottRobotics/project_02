@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target goto_node[0m
+[100%] Built target goto_node
+-- Install configuration: ""
+-- Installing: /root/ros2_ws/install/goto_node/lib/goto_node/goto_node
+-- Set runtime path of "/root/ros2_ws/install/goto_node/lib/goto_node/goto_node" to ""
+-- Installing: /root/ros2_ws/install/goto_node/share/ament_index/resource_index/package_run_dependencies/goto_node
+-- Installing: /root/ros2_ws/install/goto_node/share/ament_index/resource_index/parent_prefix_path/goto_node
+-- Installing: /root/ros2_ws/install/goto_node/share/goto_node/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_ws/install/goto_node/share/goto_node/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_ws/install/goto_node/share/goto_node/environment/path.sh
+-- Installing: /root/ros2_ws/install/goto_node/share/goto_node/environment/path.dsv
+-- Installing: /root/ros2_ws/install/goto_node/share/goto_node/local_setup.bash
+-- Installing: /root/ros2_ws/install/goto_node/share/goto_node/local_setup.sh
+-- Installing: /root/ros2_ws/install/goto_node/share/goto_node/local_setup.zsh
+-- Installing: /root/ros2_ws/install/goto_node/share/goto_node/local_setup.dsv
+-- Installing: /root/ros2_ws/install/goto_node/share/goto_node/package.dsv
+-- Installing: /root/ros2_ws/install/goto_node/share/ament_index/resource_index/packages/goto_node
+-- Installing: /root/ros2_ws/install/goto_node/share/goto_node/cmake/goto_nodeConfig.cmake
+-- Installing: /root/ros2_ws/install/goto_node/share/goto_node/cmake/goto_nodeConfig-version.cmake
+-- Installing: /root/ros2_ws/install/goto_node/share/goto_node/package.xml

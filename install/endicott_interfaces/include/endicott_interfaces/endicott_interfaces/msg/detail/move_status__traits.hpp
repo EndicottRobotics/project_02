@@ -14,6 +14,10 @@
 #include "endicott_interfaces/msg/detail/move_status__struct.hpp"
 #include "rosidl_runtime_cpp/traits.hpp"
 
+// Include directives for member types
+// Member 'header'
+#include "std_msgs/msg/detail/header__traits.hpp"
+
 namespace endicott_interfaces
 {
 
@@ -25,6 +29,13 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
+  // member: header
+  {
+    out << "header: ";
+    to_flow_style_yaml(msg.header, out);
+    out << ", ";
+  }
+
   // member: state
   {
     out << "state: ";
@@ -51,6 +62,15 @@ inline void to_block_style_yaml(
   const MoveStatus & msg,
   std::ostream & out, size_t indentation = 0)
 {
+  // member: header
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "header:\n";
+    to_block_style_yaml(msg.header, out, indentation + 2);
+  }
+
   // member: state
   {
     if (indentation > 0) {

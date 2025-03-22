@@ -18,12 +18,15 @@ extern "C"
 // Constants defined in the message
 
 // Include directives for member types
+// Member 'header'
+#include "std_msgs/msg/detail/header__struct.h"
 // Member 'state'
 #include "rosidl_runtime_c/string.h"
 
 /// Struct defined in msg/MoveStatus in the package endicott_interfaces.
 typedef struct endicott_interfaces__msg__MoveStatus
 {
+  std_msgs__msg__Header header;
   rosidl_runtime_c__String state;
   double distance_error;
   double theta_error;

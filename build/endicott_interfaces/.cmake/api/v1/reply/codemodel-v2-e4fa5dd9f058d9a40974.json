@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5b3a5514a543475aac0c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "endicott_interfaces__py",
+					"jsonFile" : "directory-endicott_interfaces__py-6cef2f910e04af3a71f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/ros2_ws/build/endicott_interfaces/endicott_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "endicott_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_endicott_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_endicott_interfaces_egg-c0036f0ae16112f2a458.json",
+					"name" : "ament_cmake_python_build_endicott_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_endicott_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_endicott_interfaces-33a54dcc1be7582a6f47.json",
+					"name" : "ament_cmake_python_copy_endicott_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "endicott_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-endicott_interfaces-44a63bed823242e00c82.json",
+					"name" : "endicott_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "endicott_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-endicott_interfaces__cpp-e394de8a6f8b2e9e6467.json",
+					"name" : "endicott_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "endicott_interfaces__py::@7ec728507cf42ef8aeb9",
+					"jsonFile" : "target-endicott_interfaces__py-c79e588d8b243eeb2f2d.json",
+					"name" : "endicott_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "endicott_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-endicott_interfaces__rosidl_generator_c-72311604d6e890ad9c0b.json",
+					"name" : "endicott_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "endicott_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-endicott_interfaces__rosidl_generator_py-dac553f8797819f1765e.json",
+					"name" : "endicott_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "endicott_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-endicott_interfaces__rosidl_typesupport_c-0a98c1100689ba29a6a1.json",
+					"name" : "endicott_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "endicott_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-endicott_interfaces__rosidl_typesupport_c__pyext-583535d756e61580e9ab.json",
+					"name" : "endicott_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "endicott_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-endicott_interfaces__rosidl_typesupport_cpp-0f27de55cd36f0e54540.json",
+					"name" : "endicott_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "endicott_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-endicott_interfaces__rosidl_typesupport_fastrtps_c-2ce3ead2bcd5618eefca.json",
+					"name" : "endicott_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "endicott_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-endicott_interfaces__rosidl_typesupport_fastrtps_c__pyext-fc396cd5f3d074fe417c.json",
+					"name" : "endicott_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "endicott_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-endicott_interfaces__rosidl_typesupport_fastrtps_cpp-4ebfd7034e03747cec65.json",
+					"name" : "endicott_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "endicott_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-endicott_interfaces__rosidl_typesupport_introspection_c-944fbf9f43ac6d58ba44.json",
+					"name" : "endicott_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "endicott_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-endicott_interfaces__rosidl_typesupport_introspection_c__pyext-e5fc47c4faa774e49ce0.json",
+					"name" : "endicott_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "endicott_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-endicott_interfaces__rosidl_typesupport_introspection_cpp-5eae5dabea0f3a9ae57f.json",
+					"name" : "endicott_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "endicott_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-endicott_interfaces_uninstall-e771def4d573e05b9e0c.json",
+					"name" : "endicott_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-49ec17663a8d642ec2f8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros2_ws/build/endicott_interfaces",
+		"source" : "/root/ros2_ws/src/endicott_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

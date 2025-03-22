@@ -1,0 +1,20 @@
+[1.545s] Invoking command in '/root/ros2_ws/src/turlebot3_ws/src/turtlebot3/turtlebot3_teleop': PYTHONPATH=/root/ros2_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/turtlebot3_teleop build --build-base /root/ros2_ws/build/turtlebot3_teleop/build install --record /root/ros2_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
+[1.921s] running egg_info
+[1.923s] writing ../../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[1.923s] writing dependency_links to ../../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[1.923s] writing entry points to ../../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[1.923s] writing requirements to ../../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[1.924s] writing top-level names to ../../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[1.927s] reading manifest file '../../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.928s] writing manifest file '../../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.928s] running build
+[1.929s] running build_py
+[1.932s] running install
+[1.933s] running install_lib
+[1.937s] running install_data
+[1.937s] running install_egg_info
+[1.939s] removing '/root/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop-2.2.0-py3.10.egg-info' (and everything under it)
+[1.939s] Copying ../../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /root/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop-2.2.0-py3.10.egg-info
+[1.941s] running install_scripts
+[1.975s] Installing teleop_keyboard script to /root/ros2_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[1.976s] writing list of installed files to '/root/ros2_ws/build/turtlebot3_teleop/install.log'

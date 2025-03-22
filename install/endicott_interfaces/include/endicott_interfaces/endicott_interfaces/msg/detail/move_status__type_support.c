@@ -13,6 +13,10 @@
 
 
 // Include directives for member types
+// Member `header`
+#include "std_msgs/msg/header.h"
+// Member `header`
+#include "std_msgs/msg/detail/header__rosidl_typesupport_introspection_c.h"
 // Member `state`
 #include "rosidl_runtime_c/string_functions.h"
 
@@ -35,7 +39,24 @@ void endicott_interfaces__msg__MoveStatus__rosidl_typesupport_introspection_c__M
   endicott_interfaces__msg__MoveStatus__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember endicott_interfaces__msg__MoveStatus__rosidl_typesupport_introspection_c__MoveStatus_message_member_array[3] = {
+static rosidl_typesupport_introspection_c__MessageMember endicott_interfaces__msg__MoveStatus__rosidl_typesupport_introspection_c__MoveStatus_message_member_array[4] = {
+  {
+    "header",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(endicott_interfaces__msg__MoveStatus, header),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
   {
     "state",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
@@ -92,7 +113,7 @@ static rosidl_typesupport_introspection_c__MessageMember endicott_interfaces__ms
 static const rosidl_typesupport_introspection_c__MessageMembers endicott_interfaces__msg__MoveStatus__rosidl_typesupport_introspection_c__MoveStatus_message_members = {
   "endicott_interfaces__msg",  // message namespace
   "MoveStatus",  // message name
-  3,  // number of fields
+  4,  // number of fields
   sizeof(endicott_interfaces__msg__MoveStatus),
   endicott_interfaces__msg__MoveStatus__rosidl_typesupport_introspection_c__MoveStatus_message_member_array,  // message members
   endicott_interfaces__msg__MoveStatus__rosidl_typesupport_introspection_c__MoveStatus_init_function,  // function to initialize message memory (memory has to be allocated)
@@ -110,6 +131,8 @@ static rosidl_message_type_support_t endicott_interfaces__msg__MoveStatus__rosid
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_endicott_interfaces
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, endicott_interfaces, msg, MoveStatus)() {
+  endicott_interfaces__msg__MoveStatus__rosidl_typesupport_introspection_c__MoveStatus_message_member_array[0].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, Header)();
   if (!endicott_interfaces__msg__MoveStatus__rosidl_typesupport_introspection_c__MoveStatus_message_type_support_handle.typesupport_identifier) {
     endicott_interfaces__msg__MoveStatus__rosidl_typesupport_introspection_c__MoveStatus_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;

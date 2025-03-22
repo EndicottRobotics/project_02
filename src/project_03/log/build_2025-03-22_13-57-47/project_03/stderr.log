@@ -1,0 +1,8 @@
+[01m[K/root/ros2_ws/src/project_03/src/goto_target_node.cpp:9:10:[m[K [01;31m[Kfatal error: [m[K~/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/move_status.hpp: No such file or directory
+    9 | #include [01;31m[K"~/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/move_status.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/goto_target_node.dir/build.make:76: CMakeFiles/goto_target_node.dir/src/goto_target_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/goto_target_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

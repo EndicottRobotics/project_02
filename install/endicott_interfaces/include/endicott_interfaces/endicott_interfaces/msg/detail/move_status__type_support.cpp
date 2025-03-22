@@ -37,7 +37,24 @@ void MoveStatus_fini_function(void * message_memory)
   typed_message->~MoveStatus();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember MoveStatus_message_member_array[3] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember MoveStatus_message_member_array[4] = {
+  {
+    "header",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<std_msgs::msg::Header>(),  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(endicott_interfaces::msg::MoveStatus, header),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
   {
     "state",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
@@ -94,7 +111,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember MoveStatus_me
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers MoveStatus_message_members = {
   "endicott_interfaces::msg",  // message namespace
   "MoveStatus",  // message name
-  3,  // number of fields
+  4,  // number of fields
   sizeof(endicott_interfaces::msg::MoveStatus),
   MoveStatus_message_member_array,  // message members
   MoveStatus_init_function,  // function to initialize message memory (memory has to be allocated)

@@ -56,13 +56,29 @@ private:
 class Init_MoveStatus_state
 {
 public:
-  Init_MoveStatus_state()
-  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  explicit Init_MoveStatus_state(::endicott_interfaces::msg::MoveStatus & msg)
+  : msg_(msg)
   {}
   Init_MoveStatus_distance_error state(::endicott_interfaces::msg::MoveStatus::_state_type arg)
   {
     msg_.state = std::move(arg);
     return Init_MoveStatus_distance_error(msg_);
+  }
+
+private:
+  ::endicott_interfaces::msg::MoveStatus msg_;
+};
+
+class Init_MoveStatus_header
+{
+public:
+  Init_MoveStatus_header()
+  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  {}
+  Init_MoveStatus_state header(::endicott_interfaces::msg::MoveStatus::_header_type arg)
+  {
+    msg_.header = std::move(arg);
+    return Init_MoveStatus_state(msg_);
   }
 
 private:
@@ -80,7 +96,7 @@ template<>
 inline
 auto build<::endicott_interfaces::msg::MoveStatus>()
 {
-  return endicott_interfaces::msg::builder::Init_MoveStatus_state();
+  return endicott_interfaces::msg::builder::Init_MoveStatus_header();
 }
 
 }  // namespace endicott_interfaces

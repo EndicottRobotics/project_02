@@ -1,0 +1,227 @@
+[0.028s] Invoking command in '/root/ros2_ws/src/endicott_interfaces/build/endicott_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/turtlebot3_teleop:/root/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/endicott_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces
+[0.242s] -- The C compiler identification is GNU 11.4.0
+[0.556s] -- The CXX compiler identification is GNU 11.4.0
+[0.777s] -- Detecting C compiler ABI info
+[0.886s] -- Detecting C compiler ABI info - done
+[0.891s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.892s] -- Detecting C compile features
+[0.893s] -- Detecting C compile features - done
+[0.897s] -- Detecting CXX compiler ABI info
+[1.012s] -- Detecting CXX compiler ABI info - done
+[1.018s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.018s] -- Detecting CXX compile features
+[1.018s] -- Detecting CXX compile features - done
+[1.040s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.165s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.301s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.442s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.450s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.464s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.489s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.574s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.791s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.081s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.278s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.283s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.539s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.539s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.539s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.540s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.559s] -- Found PythonExtra: .so  
+[2.653s] -- Configuring done
+[2.686s] -- Generating done
+[2.696s] -- Build files have been written to: /root/ros2_ws/src/endicott_interfaces/build/endicott_interfaces
+[2.702s] Invoked command in '/root/ros2_ws/src/endicott_interfaces/build/endicott_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/turtlebot3_teleop:/root/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/endicott_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces
+[2.704s] Invoking command in '/root/ros2_ws/src/endicott_interfaces/build/endicott_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/turtlebot3_teleop:/root/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/endicott_interfaces/build/endicott_interfaces -- -j8 -l8
+[2.737s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.745s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.750s] [  6%] Built target ament_cmake_python_copy_endicott_interfaces
+[2.988s] [  6%] Built target endicott_interfaces__cpp
+[2.994s] running egg_info
+[2.995s] creating endicott_interfaces.egg-info
+[2.995s] writing endicott_interfaces.egg-info/PKG-INFO
+[2.996s] writing dependency_links to endicott_interfaces.egg-info/dependency_links.txt
+[2.996s] writing top-level names to endicott_interfaces.egg-info/top_level.txt
+[2.996s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.996s] writing manifest file 'endicott_interfaces.egg-info/SOURCES.txt'
+[2.997s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.997s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.999s] reading manifest file 'endicott_interfaces.egg-info/SOURCES.txt'
+[3.000s] writing manifest file 'endicott_interfaces.egg-info/SOURCES.txt'
+[3.005s] [ 19%] [32mBuilding C object CMakeFiles/endicott_interfaces__rosidl_generator_c.dir/rosidl_generator_c/endicott_interfaces/msg/detail/move_status__functions.c.o[0m
+[3.025s] [ 19%] Built target ament_cmake_python_build_endicott_interfaces_egg
+[3.079s] [ 22%] [32m[1mLinking C shared library libendicott_interfaces__rosidl_generator_c.so[0m
+[3.194s] [ 22%] Built target endicott_interfaces__rosidl_generator_c
+[3.203s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.203s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.204s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.225s] [ 35%] [32mBuilding CXX object CMakeFiles/endicott_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/endicott_interfaces/msg/detail/move_status__type_support.cpp.o[0m
+[3.228s] [ 38%] [32mBuilding CXX object CMakeFiles/endicott_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/endicott_interfaces/msg/move_status__type_support.cpp.o[0m
+[3.279s] [ 41%] [32mBuilding CXX object CMakeFiles/endicott_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/endicott_interfaces/msg/detail/dds_fastrtps/move_status__type_support.cpp.o[0m
+[3.491s] [ 45%] [32mBuilding CXX object CMakeFiles/endicott_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/endicott_interfaces/msg/move_status__type_support.cpp.o[0m
+[3.524s] [ 48%] [32mBuilding C object CMakeFiles/endicott_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/endicott_interfaces/msg/detail/move_status__type_support.c.o[0m
+[3.524s] [ 51%] [32mBuilding CXX object CMakeFiles/endicott_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/endicott_interfaces/msg/detail/move_status__type_support_c.cpp.o[0m
+[3.533s] [ 54%] [32m[1mLinking CXX shared library libendicott_interfaces__rosidl_typesupport_c.so[0m
+[3.548s] [ 58%] [32m[1mLinking CXX shared library libendicott_interfaces__rosidl_typesupport_cpp.so[0m
+[3.571s] [ 61%] [32m[1mLinking C shared library libendicott_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.648s] [ 61%] Built target endicott_interfaces__rosidl_typesupport_c
+[3.655s] [ 61%] Built target endicott_interfaces__rosidl_typesupport_cpp
+[3.665s] [ 61%] Built target endicott_interfaces__rosidl_typesupport_introspection_c
+[3.710s] [ 64%] [32m[1mLinking CXX shared library libendicott_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.731s] [ 67%] [32m[1mLinking CXX shared library libendicott_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.822s] [ 67%] Built target endicott_interfaces__rosidl_typesupport_introspection_cpp
+[3.842s] [ 67%] Built target endicott_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.854s] [ 70%] [32m[1mLinking CXX shared library libendicott_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.954s] [ 70%] Built target endicott_interfaces__rosidl_typesupport_fastrtps_c
+[3.968s] [ 70%] Built target endicott_interfaces
+[3.983s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.199s] [ 74%] Built target endicott_interfaces__py
+[4.215s] [ 77%] [32mBuilding C object CMakeFiles/endicott_interfaces__rosidl_generator_py.dir/rosidl_generator_py/endicott_interfaces/msg/_move_status_s.c.o[0m
+[4.366s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/endicott_interfaces/libendicott_interfaces__rosidl_generator_py.so[0m
+[4.453s] [ 80%] Built target endicott_interfaces__rosidl_generator_py
+[4.471s] [ 83%] [32mBuilding C object CMakeFiles/endicott_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/endicott_interfaces/_endicott_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.471s] [ 87%] [32mBuilding C object CMakeFiles/endicott_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/endicott_interfaces/_endicott_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.471s] [ 90%] [32mBuilding C object CMakeFiles/endicott_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/endicott_interfaces/_endicott_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.557s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/endicott_interfaces/endicott_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.562s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/endicott_interfaces/endicott_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.564s] [100%] [32m[1mLinking C shared library rosidl_generator_py/endicott_interfaces/endicott_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.639s] [100%] Built target endicott_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.639s] [100%] Built target endicott_interfaces__rosidl_typesupport_c__pyext
+[4.642s] [100%] Built target endicott_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.652s] Invoked command in '/root/ros2_ws/src/endicott_interfaces/build/endicott_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/turtlebot3_teleop:/root/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/endicott_interfaces/build/endicott_interfaces -- -j8 -l8
+[4.660s] Invoking command in '/root/ros2_ws/src/endicott_interfaces/build/endicott_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/turtlebot3_teleop:/root/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/endicott_interfaces/build/endicott_interfaces
+[4.666s] -- Install configuration: ""
+[4.666s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/ament_index/resource_index/rosidl_interfaces/endicott_interfaces
+[4.666s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces
+[4.667s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg
+[4.667s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/move_status.h
+[4.667s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.667s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail
+[4.667s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail/move_status__functions.h
+[4.667s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail/move_status__struct.h
+[4.667s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail/move_status__functions.c
+[4.667s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail/move_status__type_support.h
+[4.668s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/environment/library_path.sh
+[4.668s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/environment/library_path.dsv
+[4.668s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/lib/libendicott_interfaces__rosidl_generator_c.so
+[4.669s] -- Set runtime path of "/root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/lib/libendicott_interfaces__rosidl_generator_c.so" to ""
+[4.669s] -- Up-to-date: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces
+[4.669s] -- Up-to-date: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg
+[4.669s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.670s] -- Up-to-date: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail
+[4.670s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail/move_status__rosidl_typesupport_fastrtps_c.h
+[4.670s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/lib/libendicott_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.670s] -- Set runtime path of "/root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/lib/libendicott_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.670s] -- Up-to-date: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces
+[4.671s] -- Up-to-date: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg
+[4.671s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.671s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/move_status.hpp
+[4.671s] -- Up-to-date: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail
+[4.671s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail/move_status__traits.hpp
+[4.672s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail/move_status__struct.hpp
+[4.672s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail/move_status__builder.hpp
+[4.672s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail/move_status__type_support.hpp
+[4.672s] -- Up-to-date: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces
+[4.672s] -- Up-to-date: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg
+[4.672s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.672s] -- Up-to-date: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail
+[4.673s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail/dds_fastrtps
+[4.673s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail/move_status__rosidl_typesupport_fastrtps_cpp.hpp
+[4.673s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/lib/libendicott_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.674s] -- Set runtime path of "/root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/lib/libendicott_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.674s] -- Up-to-date: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces
+[4.674s] -- Up-to-date: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg
+[4.674s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.674s] -- Up-to-date: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail
+[4.674s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail/move_status__type_support.c
+[4.675s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail/move_status__rosidl_typesupport_introspection_c.h
+[4.675s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/lib/libendicott_interfaces__rosidl_typesupport_introspection_c.so
+[4.675s] -- Set runtime path of "/root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/lib/libendicott_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.675s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/lib/libendicott_interfaces__rosidl_typesupport_c.so
+[4.675s] -- Set runtime path of "/root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/lib/libendicott_interfaces__rosidl_typesupport_c.so" to ""
+[4.675s] -- Up-to-date: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces
+[4.675s] -- Up-to-date: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg
+[4.675s] -- Up-to-date: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail
+[4.675s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail/move_status__type_support.cpp
+[4.675s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/include/endicott_interfaces/endicott_interfaces/msg/detail/move_status__rosidl_typesupport_introspection_cpp.hpp
+[4.675s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/lib/libendicott_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.676s] -- Set runtime path of "/root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/lib/libendicott_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.676s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/lib/libendicott_interfaces__rosidl_typesupport_cpp.so
+[4.676s] -- Set runtime path of "/root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/lib/libendicott_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.676s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/environment/pythonpath.sh
+[4.676s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/environment/pythonpath.dsv
+[4.676s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces-0.0.0-py3.10.egg-info
+[4.676s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.677s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.677s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.677s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.677s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces
+[4.677s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/endicott_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.677s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/_endicott_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.677s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/_endicott_interfaces_s.ep.rosidl_typesupport_c.c
+[4.677s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/endicott_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.677s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/msg
+[4.678s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/msg/_move_status_s.c
+[4.678s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/msg/_move_status.py
+[4.678s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/msg/__init__.py
+[4.678s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/_endicott_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.678s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/endicott_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.678s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/libendicott_interfaces__rosidl_generator_py.so
+[4.678s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/__init__.py
+[4.706s] Listing '/root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces'...
+[4.706s] Compiling '/root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/__init__.py'...
+[4.706s] Listing '/root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/msg'...
+[4.706s] Compiling '/root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/msg/__init__.py'...
+[4.706s] Compiling '/root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/msg/_move_status.py'...
+[4.710s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/endicott_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.710s] -- Set runtime path of "/root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/endicott_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.710s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/endicott_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.710s] -- Set runtime path of "/root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/endicott_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.710s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/endicott_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.710s] -- Set runtime path of "/root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/local/lib/python3.10/dist-packages/endicott_interfaces/endicott_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.710s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/lib/libendicott_interfaces__rosidl_generator_py.so
+[4.711s] -- Set runtime path of "/root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/lib/libendicott_interfaces__rosidl_generator_py.so" to ""
+[4.711s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/msg/MoveStatus.idl
+[4.712s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/msg/MoveStatus.msg
+[4.712s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/ament_index/resource_index/package_run_dependencies/endicott_interfaces
+[4.712s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/ament_index/resource_index/parent_prefix_path/endicott_interfaces
+[4.712s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/environment/ament_prefix_path.sh
+[4.712s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/environment/ament_prefix_path.dsv
+[4.713s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/environment/path.sh
+[4.713s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/environment/path.dsv
+[4.713s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/local_setup.bash
+[4.713s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/local_setup.sh
+[4.713s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/local_setup.zsh
+[4.713s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/local_setup.dsv
+[4.713s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/package.dsv
+[4.714s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/ament_index/resource_index/packages/endicott_interfaces
+[4.714s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/export_endicott_interfaces__rosidl_generator_cExport.cmake
+[4.714s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/export_endicott_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.714s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/export_endicott_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.714s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/export_endicott_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.714s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/export_endicott_interfaces__rosidl_generator_cppExport.cmake
+[4.714s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/export_endicott_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.714s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/export_endicott_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.715s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/endicott_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.715s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/endicott_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.715s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/endicott_interfaces__rosidl_typesupport_cExport.cmake
+[4.715s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/endicott_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.715s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/endicott_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.715s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/endicott_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.715s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/endicott_interfaces__rosidl_typesupport_cppExport.cmake
+[4.716s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/endicott_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.716s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/export_endicott_interfaces__rosidl_generator_pyExport.cmake
+[4.716s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/export_endicott_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.716s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.716s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.717s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.717s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.717s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.717s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.717s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.717s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/endicott_interfacesConfig.cmake
+[4.717s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/cmake/endicott_interfacesConfig-version.cmake
+[4.717s] -- Installing: /root/ros2_ws/src/endicott_interfaces/install/endicott_interfaces/share/endicott_interfaces/package.xml
+[4.719s] Invoked command in '/root/ros2_ws/src/endicott_interfaces/build/endicott_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/turtlebot3_teleop:/root/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/endicott_interfaces/build/endicott_interfaces

@@ -12,6 +12,8 @@
 
 
 // Include directives for member types
+// Member `header`
+#include "std_msgs/msg/detail/header__functions.h"
 // Member `state`
 #include "rosidl_runtime_c/string_functions.h"
 
@@ -19,6 +21,11 @@ bool
 endicott_interfaces__msg__MoveStatus__init(endicott_interfaces__msg__MoveStatus * msg)
 {
   if (!msg) {
+    return false;
+  }
+  // header
+  if (!std_msgs__msg__Header__init(&msg->header)) {
+    endicott_interfaces__msg__MoveStatus__fini(msg);
     return false;
   }
   // state
@@ -37,6 +44,8 @@ endicott_interfaces__msg__MoveStatus__fini(endicott_interfaces__msg__MoveStatus 
   if (!msg) {
     return;
   }
+  // header
+  std_msgs__msg__Header__fini(&msg->header);
   // state
   rosidl_runtime_c__String__fini(&msg->state);
   // distance_error
@@ -47,6 +56,12 @@ bool
 endicott_interfaces__msg__MoveStatus__are_equal(const endicott_interfaces__msg__MoveStatus * lhs, const endicott_interfaces__msg__MoveStatus * rhs)
 {
   if (!lhs || !rhs) {
+    return false;
+  }
+  // header
+  if (!std_msgs__msg__Header__are_equal(
+      &(lhs->header), &(rhs->header)))
+  {
     return false;
   }
   // state
@@ -72,6 +87,12 @@ endicott_interfaces__msg__MoveStatus__copy(
   endicott_interfaces__msg__MoveStatus * output)
 {
   if (!input || !output) {
+    return false;
+  }
+  // header
+  if (!std_msgs__msg__Header__copy(
+      &(input->header), &(output->header)))
+  {
     return false;
   }
   // state

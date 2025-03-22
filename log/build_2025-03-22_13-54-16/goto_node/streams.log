@@ -1,0 +1,24 @@
+[0.524s] Invoking command in '/root/ros2_ws/build/goto_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/turtlebot3_teleop:/root/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/goto_node -- -j8 -l8
+[0.658s] [35m[1mConsolidate compiler generated dependencies of target goto_node[0m
+[0.670s] [100%] Built target goto_node
+[0.774s] Invoked command in '/root/ros2_ws/build/goto_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/turtlebot3_teleop:/root/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/goto_node -- -j8 -l8
+[0.786s] Invoking command in '/root/ros2_ws/build/goto_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/turtlebot3_teleop:/root/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/goto_node
+[0.827s] -- Install configuration: ""
+[0.827s] -- Installing: /root/ros2_ws/install/goto_node/lib/goto_node/goto_node
+[0.833s] -- Set runtime path of "/root/ros2_ws/install/goto_node/lib/goto_node/goto_node" to ""
+[0.834s] -- Installing: /root/ros2_ws/install/goto_node/share/ament_index/resource_index/package_run_dependencies/goto_node
+[0.855s] -- Installing: /root/ros2_ws/install/goto_node/share/ament_index/resource_index/parent_prefix_path/goto_node
+[0.855s] -- Installing: /root/ros2_ws/install/goto_node/share/goto_node/environment/ament_prefix_path.sh
+[0.855s] -- Installing: /root/ros2_ws/install/goto_node/share/goto_node/environment/ament_prefix_path.dsv
+[0.855s] -- Installing: /root/ros2_ws/install/goto_node/share/goto_node/environment/path.sh
+[0.855s] -- Installing: /root/ros2_ws/install/goto_node/share/goto_node/environment/path.dsv
+[0.855s] -- Installing: /root/ros2_ws/install/goto_node/share/goto_node/local_setup.bash
+[0.855s] -- Installing: /root/ros2_ws/install/goto_node/share/goto_node/local_setup.sh
+[0.855s] -- Installing: /root/ros2_ws/install/goto_node/share/goto_node/local_setup.zsh
+[0.855s] -- Installing: /root/ros2_ws/install/goto_node/share/goto_node/local_setup.dsv
+[0.856s] -- Installing: /root/ros2_ws/install/goto_node/share/goto_node/package.dsv
+[0.856s] -- Installing: /root/ros2_ws/install/goto_node/share/ament_index/resource_index/packages/goto_node
+[0.856s] -- Installing: /root/ros2_ws/install/goto_node/share/goto_node/cmake/goto_nodeConfig.cmake
+[0.856s] -- Installing: /root/ros2_ws/install/goto_node/share/goto_node/cmake/goto_nodeConfig-version.cmake
+[0.856s] -- Installing: /root/ros2_ws/install/goto_node/share/goto_node/package.xml
+[0.942s] Invoked command in '/root/ros2_ws/build/goto_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/turtlebot3_teleop:/root/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/goto_node

@@ -2,10 +2,13 @@
 // with input from endicott_interfaces/msg/MoveStatus.msg
 // generated code does not contain a copyright notice
 
+#include "std_msgs/msg/Header.idl"
 
 module endicott_interfaces {
   module msg {
     struct MoveStatus {
+      std_msgs::msg::Header header;
+
       string state;
 
       double distance_error;

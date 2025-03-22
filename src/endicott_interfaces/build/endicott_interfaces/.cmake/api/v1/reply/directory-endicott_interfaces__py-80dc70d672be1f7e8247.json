@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "endicott_interfaces__py",
+		"source" : "build/endicott_interfaces/endicott_interfaces__py"
+	}
+}

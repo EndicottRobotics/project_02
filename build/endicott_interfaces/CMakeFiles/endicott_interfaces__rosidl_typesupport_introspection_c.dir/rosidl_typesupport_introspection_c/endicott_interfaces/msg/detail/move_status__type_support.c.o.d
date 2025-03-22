@@ -57,6 +57,14 @@ CMakeFiles/endicott_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_ty
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /root/ros2_ws/build/endicott_interfaces/rosidl_generator_c/endicott_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /root/ros2_ws/build/endicott_interfaces/rosidl_generator_c/endicott_interfaces/msg/detail/move_status__struct.h \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/header.h \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__functions.h \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__type_support.h \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__rosidl_typesupport_introspection_c.h \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h

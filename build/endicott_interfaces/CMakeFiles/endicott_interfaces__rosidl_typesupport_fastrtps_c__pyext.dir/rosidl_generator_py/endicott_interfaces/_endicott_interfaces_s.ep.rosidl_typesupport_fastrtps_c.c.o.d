@@ -204,6 +204,8 @@ CMakeFiles/endicott_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_
  /root/ros2_ws/build/endicott_interfaces/rosidl_generator_c/endicott_interfaces/msg/detail/move_status__type_support.h \
  /root/ros2_ws/build/endicott_interfaces/rosidl_generator_c/endicott_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /root/ros2_ws/build/endicott_interfaces/rosidl_generator_c/endicott_interfaces/msg/detail/move_status__struct.h \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /root/ros2_ws/build/endicott_interfaces/rosidl_generator_c/endicott_interfaces/msg/detail/move_status__functions.h
