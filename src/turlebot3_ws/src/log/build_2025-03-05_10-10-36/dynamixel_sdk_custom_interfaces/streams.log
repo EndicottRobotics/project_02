@@ -1,0 +1,275 @@
+[0.027s] Invoking command in '/root/ros2_ws/src/turlebot3_ws/src/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/turlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces
+[0.245s] -- The C compiler identification is GNU 11.4.0
+[0.572s] -- The CXX compiler identification is GNU 11.4.0
+[0.813s] -- Detecting C compiler ABI info
+[0.914s] -- Detecting C compiler ABI info - done
+[0.922s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.923s] -- Detecting C compile features
+[0.923s] -- Detecting C compile features - done
+[0.926s] -- Detecting CXX compiler ABI info
+[1.054s] -- Detecting CXX compiler ABI info - done
+[1.058s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.059s] -- Detecting CXX compile features
+[1.059s] -- Detecting CXX compile features - done
+[1.061s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.191s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.277s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.418s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.429s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.463s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.536s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.607s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.662s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.061s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.304s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.473s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.475s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.729s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.729s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.729s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.729s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.743s] -- Found PythonExtra: .so  
+[2.796s] -- Configuring done
+[2.825s] -- Generating done
+[2.833s] -- Build files have been written to: /root/ros2_ws/src/turlebot3_ws/src/build/dynamixel_sdk_custom_interfaces
+[2.838s] Invoked command in '/root/ros2_ws/src/turlebot3_ws/src/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/turlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces
+[2.839s] Invoking command in '/root/ros2_ws/src/turlebot3_ws/src/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/turlebot3_ws/src/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[2.863s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.870s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.874s] [  5%] Built target ament_cmake_python_copy_dynamixel_sdk_custom_interfaces
+[3.044s] running egg_info
+[3.044s] creating dynamixel_sdk_custom_interfaces.egg-info
+[3.044s] writing dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO
+[3.044s] writing dependency_links to dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt
+[3.044s] writing top-level names to dynamixel_sdk_custom_interfaces.egg-info/top_level.txt
+[3.045s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[3.046s] reading manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[3.046s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[3.064s] [  5%] Built target ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg
+[3.153s] [  5%] Built target dynamixel_sdk_custom_interfaces__cpp
+[3.164s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.167s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.167s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.178s] [ 17%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c.o[0m
+[3.178s] [ 17%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c.o[0m
+[3.245s] [ 20%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so[0m
+[3.347s] [ 20%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[3.357s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.363s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.384s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.506s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o[0m
+[3.520s] [ 33%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o[0m
+[3.557s] [ 35%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp.o[0m
+[3.562s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp.o[0m
+[3.571s] [ 41%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps/set_position__type_support.cpp.o[0m
+[3.807s] [ 43%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o[0m
+[3.839s] [ 46%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o[0m
+[3.848s] [ 48%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support_c.cpp.o[0m
+[3.852s] [ 51%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support_c.cpp.o[0m
+[3.878s] [ 53%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so[0m
+[3.905s] [ 56%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so[0m
+[3.942s] [ 58%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c.o[0m
+[3.996s] [ 61%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c.o[0m
+[4.026s] [ 64%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps/get_position__type_support.cpp.o[0m
+[4.028s] [ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[4.045s] [ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[4.052s] [ 66%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.054s] [ 69%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.109s] [ 69%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[4.121s] [ 69%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[4.230s] [ 71%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.330s] [ 71%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[4.397s] [ 74%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.502s] [ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.522s] [ 74%] Built target dynamixel_sdk_custom_interfaces
+[4.542s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.131s] [ 76%] Built target dynamixel_sdk_custom_interfaces__py
+[5.147s] [ 79%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c.o[0m
+[5.149s] [ 82%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c.o[0m
+[5.464s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so[0m
+[5.571s] [ 84%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+[5.598s] [ 87%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.606s] [ 89%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.680s] [ 92%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.756s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.777s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.850s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.866s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.884s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.947s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[5.958s] Invoked command in '/root/ros2_ws/src/turlebot3_ws/src/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/turlebot3_ws/src/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[5.959s] Invoking command in '/root/ros2_ws/src/turlebot3_ws/src/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/turlebot3_ws/src/build/dynamixel_sdk_custom_interfaces
+[5.982s] -- Install configuration: ""
+[5.983s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynamixel_sdk_custom_interfaces
+[5.983s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[5.983s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[5.984s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.h
+[5.984s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[5.984s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.h
+[5.984s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c
+[5.984s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.h
+[5.984s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.h
+[5.984s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[5.984s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.h
+[5.984s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.984s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[5.984s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.h
+[5.985s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.h
+[5.985s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c
+[5.985s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.h
+[5.985s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.sh
+[5.985s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.dsv
+[5.985s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so
+[5.986s] -- Set runtime path of "/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so" to ""
+[5.986s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[5.986s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[5.986s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[5.986s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h
+[5.986s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[5.986s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.986s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[5.986s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_c.h
+[5.986s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.986s] -- Set runtime path of "/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.987s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[5.987s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[5.987s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[5.987s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__builder.hpp
+[5.987s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.hpp
+[5.987s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp
+[5.987s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__traits.hpp
+[5.987s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.hpp
+[5.987s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[5.987s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.987s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.hpp
+[5.987s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[5.987s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.hpp
+[5.988s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__builder.hpp
+[5.988s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp
+[5.988s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp
+[5.988s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[5.988s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[5.988s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[5.988s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+[5.988s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps
+[5.988s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[5.988s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.988s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[5.988s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_cpp.hpp
+[5.988s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps
+[5.988s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.989s] -- Set runtime path of "/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.989s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[5.989s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[5.989s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[5.989s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c
+[5.989s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_c.h
+[5.989s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[5.989s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.989s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[5.989s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c
+[5.990s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_c.h
+[5.990s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so
+[5.990s] -- Set runtime path of "/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.990s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so
+[5.990s] -- Set runtime path of "/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so" to ""
+[5.990s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[5.990s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[5.990s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[5.990s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp
+[5.990s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp
+[5.991s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[5.991s] -- Up-to-date: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[5.991s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp
+[5.991s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_cpp.hpp
+[5.991s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.991s] -- Set runtime path of "/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.991s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so
+[5.991s] -- Set runtime path of "/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.991s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.sh
+[5.991s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.dsv
+[5.992s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.8.1-py3.10.egg-info
+[5.992s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.8.1-py3.10.egg-info/top_level.txt
+[5.992s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.8.1-py3.10.egg-info/dependency_links.txt
+[5.992s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.8.1-py3.10.egg-info/SOURCES.txt
+[5.992s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.8.1-py3.10.egg-info/PKG-INFO
+[5.992s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces
+[5.992s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv
+[5.992s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c
+[5.993s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py
+[5.993s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py
+[5.993s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so
+[5.993s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.993s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.993s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg
+[5.993s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py
+[5.993s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c
+[5.993s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py
+[5.994s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.994s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.994s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[5.994s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/__init__.py
+[5.994s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.043s] Listing '/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces'...
+[6.043s] Compiling '/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/__init__.py'...
+[6.043s] Listing '/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg'...
+[6.043s] Compiling '/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py'...
+[6.043s] Compiling '/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py'...
+[6.043s] Listing '/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv'...
+[6.043s] Compiling '/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py'...
+[6.043s] Compiling '/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py'...
+[6.064s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.064s] -- Set runtime path of "/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.064s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.064s] -- Set runtime path of "/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.064s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.065s] -- Set runtime path of "/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.065s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so
+[6.065s] -- Set runtime path of "/root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so" to ""
+[6.065s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl
+[6.066s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl
+[6.066s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg
+[6.066s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.srv
+[6.066s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Request.msg
+[6.066s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Response.msg
+[6.066s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_custom_interfaces
+[6.067s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_custom_interfaces
+[6.067s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.sh
+[6.067s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.dsv
+[6.067s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.sh
+[6.067s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.dsv
+[6.067s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.bash
+[6.067s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.sh
+[6.068s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.zsh
+[6.068s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.dsv
+[6.068s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv
+[6.068s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/packages/dynamixel_sdk_custom_interfaces
+[6.068s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport.cmake
+[6.068s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.068s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.069s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.069s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cppExport.cmake
+[6.069s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.069s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.069s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.069s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.070s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport.cmake
+[6.070s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.070s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.070s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.070s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport.cmake
+[6.070s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.070s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport.cmake
+[6.071s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[6.071s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.071s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.071s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.071s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.071s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.071s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.071s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.072s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig.cmake
+[6.072s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig-version.cmake
+[6.072s] -- Installing: /root/ros2_ws/src/turlebot3_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.xml
+[6.101s] Invoked command in '/root/ros2_ws/src/turlebot3_ws/src/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/turlebot3_ws/src/build/dynamixel_sdk_custom_interfaces

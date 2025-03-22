@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/endicott_turtle_controler.dir/src/endicott_turtle_controler.cpp.o -o endicott_turtle_controler 
