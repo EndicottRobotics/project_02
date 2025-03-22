@@ -89,6 +89,7 @@ private:
     double Dstop  = 0.5*Amax*(tStop*tStop); // distance traveled at max deaccelerate
     double Dcoast = Vcurrent *dT + Dstop;   // distance traveled if coast for dT then apply max deaccelerate
     double Dacc   = Amax*dT*dT + Dcoast;    // distance traveled if max accelerate for dT then apply max deaccelerate
+    
     if (Dacc < distanceToTarget)       {  Vnext = Vcurrent+(Amax*dT);  }
     else if (Dcoast < distanceToTarget){  Vnext = Vcurrent;            }
     else                               {  Vnext = Vcurrent - Amax*dT;  }
