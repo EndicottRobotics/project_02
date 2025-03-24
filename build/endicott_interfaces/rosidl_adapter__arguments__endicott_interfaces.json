@@ -1,6 +1,0 @@
-{
-  "package_name": "endicott_interfaces",
-  "non_idl_tuples": [
-    "/root/ros2_ws/src/endicott_interfaces:msg/MoveStatus.msg"
-  ]
-}

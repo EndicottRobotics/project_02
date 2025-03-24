@@ -1,5 +1,3 @@
-std_msgs/Header header
-
 string state
 float64 distance_error
 float64 theta_error
